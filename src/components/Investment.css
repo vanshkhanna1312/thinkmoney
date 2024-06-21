@@ -1,0 +1,47 @@
+.incontainer {
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: 10rem 1fr 1fr 10rem; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    padding: 200px 0px 1000px 100px;
+    margin-left: 200px;
+  }
+  
+  
+  .Equity {
+    grid-column: 3/4; 
+    justify-self: start; 
+    align-self: center;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.5s;
+    background-color: #3b5998; 
+    color: white;
+  }
+  
+  .Equity:hover {
+    background-color: #2d4478; 
+  }
+  
+  .Gold {
+    grid-column: 3/4; 
+    justify-self: end; 
+    align-self: last baseline; 
+    padding: 30px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.5s;
+    background-color: #ffd700; 
+    color: #333; 
+  }
+  
+  .Gold:hover {
+    background-color: #e3c700; 
+  }
+  
